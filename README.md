@@ -12,8 +12,11 @@ This rule-based version is lightweight, has no dependencies, and works offline.
 ## Installation
 No installation needed! Just copy the `get_german_article` function into your project.
 
-Or clone the repo:
-```bash
-git clone https://github.com/altustd/german-article-determiner.git
+## Usage 
 
+```python
 
+print(get_german_article('Haus'))        # Output: das
+print(get_german_article('Frau'))        # Output: die
+print(get_german_article('Computer'))    # Output: der
+print(get_german_article('Mädchen'))     # Output: das
